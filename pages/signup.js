@@ -1,7 +1,7 @@
 import React from 'react';
 import SignupCard from '../Components/loginComps/signup_index';
 
-const login = () => {
+const signup = () => {
   return (
     <>
       <SignupCard />
@@ -9,4 +9,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default signup;

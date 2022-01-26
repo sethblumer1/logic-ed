@@ -86,14 +86,17 @@ export default function SplitWithImage() {
             />
           </Stack>
         </Stack>
-        <Flex>
+        <Flex align={'center'}>
           <Image
             rounded={'md'}
             alt={'feature image'}
+            // src={
+            //   'https://lh3.googleusercontent.com/YDpfN5xH3aA5NEORXsNX5hSQJOtnhba40gnanNSSU0Hg31aSwDe9LgLHUSpbY9Kq3CxnwCHVkJWoNpITs0r8_O0TWT2ovFGds63JhQ=w1024-e365'
+            // }
             src={
-              'https://lh3.googleusercontent.com/YDpfN5xH3aA5NEORXsNX5hSQJOtnhba40gnanNSSU0Hg31aSwDe9LgLHUSpbY9Kq3CxnwCHVkJWoNpITs0r8_O0TWT2ovFGds63JhQ=w1024-e365'
+              'https://img2.storyblok.com//f/90801/2000x1106/41bc9bbb40/blog-technology-background.jpg'
             }
-            objectFit={'cover'}
+            objectFit={'contain'}
           />
         </Flex>
       </SimpleGrid>

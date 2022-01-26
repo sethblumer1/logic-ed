@@ -69,11 +69,11 @@ const LandingPage = () => {
             justifyContent="flex"
             alignItems="center"
           >
-            <Link href="/login">
+            <Link href="/signup">
               <Button
                 component="a"
                 // onClick={() => handleIntroClick(idx)
-                // m={2}
+
                 bgColor={'yellow.400'}
                 _hover={{ bg: 'yellow.200' }}
               >
@@ -83,7 +83,7 @@ const LandingPage = () => {
             <Link href="/about">
               <Button
                 // onClick={() => handleIntroClick(idx)
-                // m={2}
+
                 color={'white'}
                 bgColor={'black'}
                 _hover={{ bg: 'gray.700' }}
