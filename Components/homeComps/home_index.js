@@ -34,15 +34,15 @@ const LandingPage = () => {
             <Text
               as={'span'}
               position={'relative'}
-              _after={{
-                content: "''",
-                width: 'full',
-                height: useBreakpointValue({ base: '20%', md: '30%' }),
-                position: 'absolute',
-                bottom: 1,
-                left: 0,
-                zIndex: -1,
-              }}
+              // _after={{
+              //   content: "''",
+              //   width: 'full',
+              //   height: useBreakpointValue({ base: '20%', md: '30%' }),
+              //   position: 'absolute',
+              //   bottom: 1,
+              //   left: 0,
+              //   zIndex: -1,
+              // }}
               color={'white'}
             >
               Course management
@@ -63,7 +63,7 @@ const LandingPage = () => {
             Technical Education (CTE) level classes with our software.
           </Text>
           <Stack
-            direction={{ base: 'column', md: 'row' }}
+            direction={{ base: 'row' }}
             spacing={4}
             display="flex"
             justifyContent="flex"
