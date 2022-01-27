@@ -14,14 +14,20 @@ import { useState } from 'react';
 
 const LandingPage = () => {
   return (
-    <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
+    <Stack
+      minH={'100vh'}
+      direction={{ base: 'column', md: 'row' }}
+      marginRight={{ base: '0px', md: '150px' }}
+      marginLeft={{ base: '0px', md: '150px' }}
+    >
       <Flex
         p={8}
         maxH={['50vh', '100vh']}
         flex={1}
-        align={'center'}
+        align={'flex-start'}
         justify={'center'}
         backgroundImage="linear-gradient(180deg, #A1D3F5, #0248CD)"
+        backgroundImage="#fdfdfd"
       >
         <Stack
           spacing={6}
@@ -43,19 +49,19 @@ const LandingPage = () => {
               //   left: 0,
               //   zIndex: -1,
               // }}
-              color={'white'}
+              color={'#75C1F5'}
             >
-              Course management
+              Course management,
             </Text>
             <br />{' '}
-            <Text color={'black'} as={'span'}>
+            <Text color={'#0248CD'} as={'span'}>
               made easy.
             </Text>{' '}
           </Heading>
 
           <Text
             fontSize={{ base: 'md', lg: 'lg' }}
-            color={'white'}
+            color={'black'}
             align={'flex'}
             justify={'center'}
           >
@@ -94,11 +100,12 @@ const LandingPage = () => {
           </Stack>
         </Stack>
       </Flex>
-      <Flex flex={1}>
+      <Flex flex={1} align="flex-start">
         <Image
           alt={'Login Image'}
           objectFit={'contain'}
-          src={'https://i.ibb.co/6bF8HZJ/Logic-Ed-logo-color-1.png'}
+          src={'/education-icon.svg'}
+          paddingTop={{ base: '0px', md: '60px' }}
         />
       </Flex>
     </Stack>

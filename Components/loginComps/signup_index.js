@@ -23,7 +23,7 @@ export default function SignupCard() {
   return (
     <Flex
       minH={'100vh'}
-      align={'center'}
+      align={'flex-start'}
       justify={'center'}
       backgroundImage="linear-gradient(180deg, #A1D3F5, #0248CD)"
     >
